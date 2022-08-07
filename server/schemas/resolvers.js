@@ -10,6 +10,12 @@ const resolvers = {
       throw new AuthenticationError("You need to be logged in!");
     },
   },
+
+  Mutation: {
+    addUser: async(parent, {username, email, password}) => {
+        const user = await User.create({username, email, password});
+    }
+  }
 };
 
 module.exports = resolvers;
