@@ -31,13 +31,13 @@ A Google API book search engine where users can save books they like to their pr
 ```bash
 - npm run develop
 ```
-- Then visit [localhost:3000](localhost:3000) to use the app or [Click on this link]() to visit the live application on Heroku..
+- Then visit [localhost:3000](localhost:3000) to use the app or [Click on this link](https://mern-book-search-daman29.herokuapp.com/) to visit the live application on Heroku..
 
-- Visit the application repository at [GitHub Repository](https://github.com/daman29/text-editor-PWA)
+- Visit the application repository at [GitHub Repository](https://github.com/daman29/book-search-engine-MERN)
 
-The GIF below shows the basic functions of the application
+The image below shows how the application looks.
 
-![Application demo showing basic text input and install function]()
+![Application screenshot showing basic text input and UI of the application](./assets/screenshot.png)
 
 ## License
 - This application is licensed under the [MIT License](./LICENSE)
